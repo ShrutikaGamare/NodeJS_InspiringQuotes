@@ -1,0 +1,81 @@
+<html>
+        
+    <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <title>
+             Inspire!       
+        </title>
+        
+       
+    </head>
+    
+        
+    <body style="background-color:black">
+         
+       <br>
+       <br>
+       <br>
+       <br>
+       <br>
+       
+      
+
+        <div class="container">
+            <div class="jumbotron" align="center" style="background-color:rgb(41, 40, 44)">
+                <h2 style="font-family:Comic Sans MS;font:bold;color:rgb(46, 44, 44);-webkit-text-stroke: 1px rgb(133, 236, 30);"> If I cannot do great things, I can do small things in a great way!! </h2>    
+            </div>
+        </div>
+           
+        
+        <br>
+        <br>
+        <br>
+        <br>
+        
+
+        <div id="posts"> </div>
+          
+        <div align="center" class="container" >
+    
+            <h1 style="font-family:Comic Sans MS;color:black;-webkit-text-stroke: 1px rgb(135, 243, 26);" align="center" id="quote"></h1>
+
+        </div>
+
+
+        <script>
+
+            
+                var quoteArray=[
+                    "Success is not final; failure is not fatal: It is the courage to continue that counts. (Winston S. Churchill)",
+                    "It is better to fail in originality than to succeed in imitation. (Herman Melville)",
+                    "The road to success and the road to failure are almost exactly the same. (Colin R. Davis)",
+                    "Success usually comes to those who are too busy to be looking for it. (Henry David Thoreau)",
+                    "Opportunities don't happen. You create them. (Chris Grosser)",
+                    "Don't be afraid to give up the good to go for the great. (John D. Rockefeller)",
+                    "I find that the harder I work, the more luck I seem to have. (Thomas Jefferson)",
+                    "There are two types of people who will tell you that you cannot make a difference in this world: those who are afraid to try and those who are afraid you will succeed. (Ray Goforth)",
+                    "Would you like me to give you a formula for success? It's quite simple, really: Double your rate of failure. You are thinking of failure as the enemy of success. But it isn't at all. You can be discouraged by failure or you can learn from it, so go ahead and make mistakes. Make all you can. Because remember that's where you will find success. (Thomas J. Watson)",
+                    "If you are not willing to risk the usual, you will have to settle for the ordinary. (Jim Rohn)",
+                    "People who succeed have momentum. The more they succeed, the more they want to succeed, and the more they find a way to succeed. Similarly, when someone is failing, the tendency is to get on a downward spiral that can even become a self-fulfilling prophecy. (Tony Robbins)",
+                    "Don't let the fear of losing be greater than the excitement of winning. (Robert Kiyosaki)",
+                    "If you really look closely, most overnight successes took a long time. (Steve Jobs)",
+                    "The real test is not whether you avoid this failure, because you won't. It's whether you let it harden or shame you into inaction, or whether you learn from it; whether you choose to persevere. (Barack Obama)",
+                    "Character cannot be developed in ease and quiet. Only through experience of trial and suffering can the soul be strengthened, ambition inspired, and success achieved. (Helen Keller)",
+                    "The way to get started is to quit talking and begin doing. (Walt Disney)",
+                    "Success is not the key to happiness. Happiness is the key to success. If you love what you are doing, you will be successful. (Albert Schweitzer)",
+                    "Success isn't just about what you accomplish in your life; it's about what you inspire others to do. (Unknown)",
+                    "Don't be distracted by criticism. Remember--the only taste of success some people get is to take a bite out of you. (Zig Ziglar)",
+                    "There is a powerful driving force inside every human being that, once unleashed, can make any vision, dream, or desire a reality. (Anthony Robbins)"
+                                ];
+                
+            var randomNumber=Math.floor((Math.random() * 20) + 1);
+            document.getElementById('quote').innerHTML=quoteArray[randomNumber-1];
+                
+        </script>
+
+
+
+
+    </body>
+
+</html>
